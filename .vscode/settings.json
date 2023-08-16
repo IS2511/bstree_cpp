@@ -1,0 +1,15 @@
+{
+    "triggerTaskOnSave.tasks": {
+        "CMake: build": [
+            "**/*.cpp",
+            "**/*.h",
+        ]
+    },
+    "cmake.configureArgs": [
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+        "-DCMAKE_CXX_FLAGS='-Wall -Wextra -Wpedantic -B/usr/local/libexec/mold'",
+    ],
+    "cmake.buildArgs": [
+        "-j=4"
+    ],
+}

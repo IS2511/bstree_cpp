@@ -1,0 +1,5 @@
+# Build directory
+build
+
+# Cache directory (mostly for clangd cache)
+.cache
